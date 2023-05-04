@@ -1,0 +1,114 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, "SegoeUI", Roboto, Helvetica, Arial, sans-serif, "AppleColorEmoji", "SegoeUIEmoji", "SegoeUISymbol";
+}
+
+body {
+  background-color: #ffffff;
+
+}
+
+.navbar .navbar-nav .nav-link {
+  color: white;
+  padding: .2rem;
+}
+
+.navbar-nav {
+  padding: .25rem 0;
+}
+
+.circle-link {
+  display: inline-block;
+  padding: 1.5rem;
+  margin: 0 .5rem;
+  color: #fff;
+
+}
+
+.circle-link:hover {
+  text-align: center;
+  border-radius: 50px;
+  margin: 0 .5rem;
+  padding: 1.5rem;
+  background-color: #545454;
+  transition: all .3 ease-in-out;
+}
+
+.active {
+  border-radius: 50px;
+  background-color: #ffffff;
+}
+
+.active:hover {
+  color: #ffffff;
+  background-color: #424245;
+}
+
+.first_section {
+  background-image: url('../image/about_img/About_us_600.webp');
+  background-size: cover;
+  width: 100%;
+  max-height: 100vh;
+  height: 60vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+}
+
+.first_section h1 {
+  padding-top: 50dvh;
+}
+
+.second_section {
+  width: 70%;
+}
+
+/* .second_section p,.first_accordion_body,.fourth_section h6,.fifth_section h5{
+    font-size: 14px;
+} */
+
+.third_section {
+  background-image: url('../image/about_img/ceo.webp');
+  background-size: cover;
+  width: 100%;
+  height: 50vh;
+  max-height: 100vh;
+  background-position: center;
+
+}
+
+.seventh_section {
+  /* background-color: #f9f9f9; */
+  background-image: url('../image/about_img/road.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 340px;
+}
+
+.active {
+  border-radius: 50px;
+  background-color: #ffffff;
+}
+
+.active:hover {
+  color: #ffffff;
+  background-color: #424245;
+}
+
+
+/*-----footer ---------*/
+
+footer {
+  color: #f5f5f5;
+  background-color: #000000;
+  padding: 50px;
+  font-size: 14px;
+}
+
+.pColor {
+  color: #424245;
+}
+
+.social {
+  color: #4E4E51;
+  text-decoration: none;
+}
